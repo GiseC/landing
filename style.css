@@ -1,0 +1,135 @@
+/* Write some CSS below */
+body{
+	background-color: #f2feffd1;
+	margin: 0;
+}
+
+p{
+	line-height: 1.5;
+	margin-bottom: 18px;
+	color: #641a67;
+	font-family: 'Sansita Swashed';
+	font-size: 20px;
+	text-align: justify;
+}
+
+.cabecera
+{
+	background-image: url(images/cabecera.jpg);
+	background-size: cover;
+	padding: 120px 0;
+	text-align: center;
+}
+
+h1
+{
+	color: black;
+	font-family: 'Dancing Script', cursive;
+	font-size: 80px;
+	margin: 10px;
+	font-weight: bold;
+}
+
+.content
+{
+	padding: 20px;
+}
+
+.lista
+{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+
+.cards
+{
+	background: #cec6d05e;
+	box-shadow: 0 0 16px grey;
+	border-radius: 4px;
+	padding: 24px;
+	margin: 8px;
+	flex-grow: 1;
+}
+.cards img
+{
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+	border-radius: 4px;
+}
+
+.cards h2
+{
+	color: #302b75;
+	font-family: 'Sansita Swashed';
+	font-size: 18px;
+	
+}
+
+.boton_1
+{
+   text-decoration: none;
+   padding: 3px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-family: 'Bookman Old Style';
+   font-weight: 300;
+   font-size: 20px;
+   font-style: italic;
+   color: white;
+   background-color: #741992;
+   border-radius: 15px;
+   border: 3px double #370c46;
+   text-align: center;
+   display: flex;
+   justify-content: center;
+}
+
+.boton_1:hover{
+   opacity: 0.6;
+   text-decoration: none;
+ }
+
+.footer
+{
+	padding: 10px;
+  	background-color: #77ead5;
+  	font-family: 'Bookman Old Style';
+	font-size: 18px;
+	font-weight: bold;
+	color: blue;
+	display: flex;
+}
+
+.footer div
+{
+  	display: flex;
+  	flex-direction: column;
+}
+
+.footer p
+{
+  	font-family: 'Bookman Old Style';
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	color: #4e4a4a;
+}
+
+.footer a
+{
+  	font-family: 'Bookman Old Style';
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	color: #4e4a4a;
+	line-height: 1.5;
+}
+
+.footer > div
+{
+  	margin: 20px;
+}
+  
